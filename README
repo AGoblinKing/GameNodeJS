@@ -1,0 +1,26 @@
+GameNodeJS
+- In NodeJS, MMO makes you.
+
+
+
+
+(Quick Start Instructions)
+- Have NodeJS v2.0 or better installed: http://www.nodejs.org
+
+.::Single Server Instructions::.
+
+- Start the Game Server 
+-- node game.js
+- Start the Network Server(s)
+-- node network.js
+- Access Client at http://yourserver:8080
+
+
+.::Multiple Server Instructions::.
+- Configure It
+-- Configuration Settings found in /config/index.js
+- Follow Single server instructions
+
+-----------------------------------------------
+
+
