@@ -1,1 +1,1 @@
-module.exports={"jgalvin":{"name":"jgalvin","password":"jgalvin"},"jgalvin2":{"name":"jgalvin2","password":"jgalvin2"},"asdasdasdasd":{"name":"asdasdasdasd","password":"asdadads"}};
+module.exports={};
