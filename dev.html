@@ -1,0 +1,50 @@
+<html>  
+    <head>
+        <title>Development IDE</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/client/jquery/jquery.js"></script>
+        <script src="/client/jquery/jquery-ui.js"></script>
+        %includes
+    </head>
+    <body>
+        <div id="console">
+            
+        </div>
+        
+        <canvas id="render">
+                
+        </canvas>
+        <div id="assets">
+            <div id="development">
+                <div class="leftCol">
+                    <div class="fileWidget">
+                        <div class="fileExplorer"></div>
+                        <input type="button" value="open" class="open"/>
+                        <input type="button" value="open" class="refresh"/>
+                    </div>
+                </div>
+                <div class="rightCol">
+                    <div class="tabs"></div>
+                    <div class="devarea">
+                        
+                    </div>
+                    <input type="button" class="save" value="save"/>
+                </div>
+            </div>
+            <div id="loginGUI">
+                <div class="message"></div>
+                <label>Name</label>
+                <input id="loginName" type="text"/>
+                <label>Password</label>
+                <input id="loginPass" type="password"/>
+            </div>
+            <div id="progressGUI">
+                <div class="progressBar"></div>
+            </div>
+            <div id="connectGUI">
+               Connect.
+            </div>
+        </div>
+    </body>
+</html>
+    
